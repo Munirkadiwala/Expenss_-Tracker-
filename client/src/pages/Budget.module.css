@@ -1,0 +1,45 @@
+.page { max-width: 800px; margin: 0 auto; }
+.page h1 { font-size: 26px; font-weight: 700; color: #1a202c; }
+.sub { font-size: 13.5px; color: #9aa5b4; margin-top: 2px; margin-bottom: 24px; }
+
+.alert {
+  display: flex; align-items: center; gap: 10px;
+  background: #fffbeb; border: 1px solid #f6e05e;
+  border-radius: 10px; padding: 12px 16px;
+  font-size: 13.5px; color: #92400e; margin-bottom: 20px;
+}
+
+.card { background: #fff; border: 1px solid #e8ecef; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+.cardTitle { font-size: 15px; font-weight: 600; color: #1a202c; }
+.cardSub { font-size: 13px; color: #9aa5b4; margin-top: 4px; margin-bottom: 20px; }
+
+.form { display: flex; flex-direction: column; gap: 16px; }
+.field label { display: block; font-size: 13px; font-weight: 600; color: #374151; margin-bottom: 6px; }
+.field input {
+  width: 100%; padding: 10px 14px; border: 1px solid #e2e8f0;
+  border-radius: 8px; font-size: 14px; outline: none; background: #fafafa;
+}
+.field input:focus { border-color: #2ecc71; background: #fff; }
+.hint { font-size: 12px; color: #9aa5b4; margin-top: 4px; display: block; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 24px; background: #2ecc71; color: #fff;
+  border: none; border-radius: 8px; font-size: 14px; font-weight: 600;
+  width: fit-content;
+}
+.btn:hover { background: #27ae60; }
+
+.statsRow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px; }
+.statCard { background: #fff; border: 1px solid #e8ecef; border-radius: 12px; padding: 20px; }
+.purple { border-top: 3px solid #9b59b6; }
+.red { border-top: 3px solid #e74c3c; }
+.green { border-top: 3px solid #2ecc71; }
+.statLabel { font-size: 12px; color: #9aa5b4; font-weight: 500; margin-bottom: 10px; }
+.statValue { font-size: 24px; font-weight: 700; color: #1a202c; }
+.statSub { font-size: 12px; color: #9aa5b4; margin-top: 4px; }
+
+.barTop { display: flex; justify-content: space-between; font-size: 13px; color: #374151; margin-bottom: 8px; }
+.barTrack { height: 10px; background: #f0f4f8; border-radius: 10px; overflow: hidden; }
+.barFill { height: 100%; border-radius: 10px; transition: width 0.4s; }
+.barPct { font-size: 12px; color: #9aa5b4; margin-top: 6px; }

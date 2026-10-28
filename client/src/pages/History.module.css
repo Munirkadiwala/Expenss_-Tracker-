@@ -1,0 +1,55 @@
+.page { max-width: 1000px; margin: 0 auto; }
+
+.topBar { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+.topBar h1 { font-size: 26px; font-weight: 700; color: #1a202c; }
+.topBar p { font-size: 13.5px; color: #9aa5b4; margin-top: 2px; }
+.topActions { display: flex; gap: 10px; }
+
+.btnGreen { display: flex; align-items: center; gap: 6px; padding: 9px 18px; background: #2ecc71; color: #fff; border: none; border-radius: 8px; font-size: 13.5px; font-weight: 600; }
+.btnGreen:hover { background: #27ae60; }
+.btnOutline { display: flex; align-items: center; gap: 6px; padding: 9px 18px; background: #fff; color: #374151; border: 1px solid #e2e8f0; border-radius: 8px; font-size: 13.5px; font-weight: 500; }
+.btnOutline:hover { background: #f5f7fa; }
+
+.filters { display: flex; align-items: center; gap: 12px; background: #fff; border: 1px solid #e8ecef; border-radius: 10px; padding: 10px 16px; margin-bottom: 20px; }
+.searchWrap { flex: 1; position: relative; }
+.searchIcon { position: absolute; left: 0; top: 50%; transform: translateY(-50%); color: #9aa5b4; font-size: 18px; }
+.searchWrap input { width: 100%; border: none; outline: none; padding-left: 24px; font-size: 14px; background: transparent; color: #1a202c; }
+.filterRight { display: flex; align-items: center; gap: 8px; }
+.filterRight select { border: none; outline: none; font-size: 13.5px; color: #374151; background: transparent; cursor: pointer; }
+
+.totalCard { border-radius: 12px; padding: 24px 28px; margin-bottom: 20px; color: #fff; }
+.red { background: #e74c3c; }
+.green { background: #2ecc71; }
+.totalLabel { font-size: 13px; font-weight: 500; opacity: 0.9; margin-bottom: 8px; }
+.totalValue { font-size: 32px; font-weight: 700; }
+.totalSub { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+
+.listCard { background: #fff; border: 1px solid #e8ecef; border-radius: 12px; padding: 20px; }
+.listTitle { font-size: 15px; font-weight: 600; color: #1a202c; margin-bottom: 12px; }
+.empty { color: #9aa5b4; font-size: 13px; text-align: center; padding: 24px 0; }
+
+.row { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid #f5f7fa; }
+.row:last-child { border-bottom: none; }
+.rowInfo { flex: 1; }
+.rowName { font-size: 14px; font-weight: 500; color: #1a202c; }
+.rowMeta { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #9aa5b4; margin-top: 3px; }
+.badge { padding: 2px 10px; border-radius: 20px; font-size: 11.5px; font-weight: 500; }
+.expBadge { background: #fff5f5; color: #e74c3c; }
+.incBadge { background: #f0fdf4; color: #2ecc71; }
+
+.rowRight { display: flex; align-items: center; gap: 10px; }
+.rowAmount { font-size: 14px; font-weight: 600; min-width: 80px; text-align: right; }
+.iconBtn { background: none; border: none; padding: 4px; display: flex; align-items: center; border-radius: 6px; }
+.iconBtn:hover { background: #f5f7fa; }
+
+.overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; z-index: 100; }
+.modal { background: #fff; border-radius: 14px; padding: 28px; width: 400px; max-width: 95vw; }
+.modal h3 { font-size: 17px; font-weight: 700; margin-bottom: 20px; color: #1a202c; }
+.modalForm { display: flex; flex-direction: column; gap: 12px; }
+.modalForm label { font-size: 12.5px; font-weight: 600; color: #374151; margin-bottom: -6px; }
+.modalForm input, .modalForm select {
+  padding: 9px 12px; border: 1px solid #e2e8f0; border-radius: 8px;
+  font-size: 14px; outline: none;
+}
+.modalForm input:focus, .modalForm select:focus { border-color: #2ecc71; }
+.modalActions { display: flex; gap: 10px; margin-top: 8px; }
